@@ -3,6 +3,11 @@
 #+AUTHOR: Ali Mehmandoost
 #+DATE: 
 #+EMAIL: mehmandoost@eng.ui.ac.ir
+
+\newpage
+The following text is not a solutions manual nor it was intended to be any kind of guid. It's just My HomeWork or pre-exame practice. It is incomplete and full of errors.
+If you find an error you can inform me via github issues [https://github.com/Mehmandoost/ui36nnd/issues].
+\newpage
 * Chapter 2
 ** E2.1
   weight = 1.3, bias = 3 \\
@@ -128,7 +133,7 @@ No,  Symmetrical hard limit domain is {-1,1} therefore it can not produce 0.5.
 *** I:
 six neurons, one for each out put and atleast 1 multi input neuron for  inputs
 *** II:
-Not enough information is given but with minimal assumption of E2.4.I at input neuron 1 row for the neuron and 6 column for each input is requied and each out put neuron has 1\times1 wieght matrix
+Not enough information is given but with minimal assumption of E2.4.I at input neuron 1 row for the neuron and 6 column for each input is requied and each out put neuron has 1\times1 wieght matrix.
 *** III: 
 Not enough information is given to determine the transfer function of the input layer but of the transfer functions from Table 2.1, the logsig transfer function would be most appropriate for output layer.
 *** IV:
@@ -309,7 +314,7 @@ We can't, Hamming network was designed explicity to solve binary pattern recogni
 ** E3.4
 *** I, II: \\
 [#ASK: Should I use W^{T}]
-3 different classes: it divide the space in to 3 parts 
+3 different classes: it divides the space in to 3 parts 
 \begin{equation}
 \[ \begin{bmatrix}1 && 1\end{bmatrix} \begin{bmatrix}x && y\end{bmatrix}  - 2 = 0 \implies y = 2-x \]
 \[ \begin{bmatrix}-1 && 1\end{bmatrix} \begin{bmatrix}x && y\end{bmatrix}  - 0 = 0 \implies y= x \]
@@ -381,7 +386,7 @@ w = \begin{bmatrix}1 &0\end{bmatrix} \ \& \ b=0
 \[n = Wp+b =  \begin{bmatrix}1 &0\end{bmatrix}  \begin{bmatrix}0.5 \\-0.5\end{bmatrix} + 0 = 0.5 \]
 \[a= hardlims(Wp+b) =  hardlims(0.5) = 1 \]
 \end{equation}
-\\ yes it is closer to \begin{bmatrix}1 \\ 1\end{bmatrix} and the network classified them in the same classes.
+\\ yes it is closer to \begin{bmatrix}1 \\ 1\end{bmatrix} and the network classified them in the same class.
 *** V: \\
 **** Feed forward Layer
 \begin{equation}
@@ -495,7 +500,7 @@ grid on;
 [[./graphs/e4_2_I.png]]
 *** V: \\
 [#ASK] 
-All of the vectors may result in a different classes simply by change W to its reflection in respect to decision boundary.
+All the vectors may result in a different classes simply by changing W to its reflection in respect to decision boundary.
 ** E4.3
 
 \begin{equation}
@@ -742,7 +747,7 @@ grid on;
 P1 and P3 are correctly classified.
 
 *** IV: \\
-there is a W and b that divide the space into our desires so by Proof of Convergence (4_15) given enough iterations the perceptron, learning rule will be successfull.
+There is a W and a b that divide the space into our desires so by Proof of Convergence (4-15) given enough iterations the perceptron, learning rule will be successfull.
 [#ASK] [#TODO: #DOTHEMATH]
 
 ** E4.9
@@ -825,7 +830,7 @@ grid on;
 \end{equation}
 
 *** VI: \\
-there is a W and b that divide the space into our desires so by Proof of Convergence (4_15) given enough iterations the perceptron, learning rule will be successfull.
+There is a W and b that divide the space into our desires so by Proof of Convergence (4-15) given enough iterations the perceptron, learning rule will be successfull.
 
 ** E4.10
 *** I: \\
@@ -1120,7 +1125,7 @@ Let p_{1} and p_{2} be two vectors on the decision boundary:
 \[Wp_{1} + b = 0 , \ Wp_{2} + b = 0\] 
 \[Wp_{1}+b+Wp_{2}+b = 0 \implies \[W(p_{1}+p_{2})+b = -b \]
 \end{equation}
-there for the sum is not on the decision boundary and condition 1 is not satisfied.
+therefore the sum is not on the decision boundary and condition 1 is not satisfied.
 ** E5.2
 [#ASK]
 1
